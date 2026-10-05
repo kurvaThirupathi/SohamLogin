@@ -1,0 +1,422 @@
+
+body{
+        margin:0;
+		font-family:Gisha;
+     }
+
+     .heading_info{
+     	position:absolute;
+     	color:#fff;
+     	font-size:38px;
+     	top:6%;
+     	left:22%;
+     	font-weight:bold;
+     }
+     .sohamgeni_info{
+     	
+     	position:absolute;
+     	color:#fff;
+     	top:20%;
+     	left:12%;
+     	font-size:20px;
+     	letter-spacing:1px;
+     	line-height:30px;
+     }
+     .hoverImage{
+	display:none;
+	height:100%;
+	width:100%;
+	background-position:center;
+	background-size: cover;
+   background-repeat: no-repeat;
+  
+}
+.bg-container{
+  /* background: url("resources/login/css/ams16.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;  */
+  }
+
+  canvas{
+
+    height:100%;
+   width:100%;
+   background: url("../images/sohamgeni944.jpg");
+   background-size:cover;
+   background-repeat: no-repeat; 
+   background-color:#808080;
+   margin-bottom:-4px;
+}
+
+.sohamlogin{
+	position: absolute;
+    top: 17%;
+    right: 12%;
+}
+.soham{
+
+	font-family: Segoe Script;
+    font-size: 25px;
+    top: -13%;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    padding: 32px 28px 5px 5px;
+    width: 65px;
+    height: 63px;
+    left: 36%;
+    background-color: #4682B4;
+    }
+
+ .login-form-content{
+	    /*position:absolute;
+		top:20%;
+	    right:10%;*/
+	    width:360px;
+		border:1px solid #ccc;
+		box-shadow:1px 1px 1px 1px;
+		height:auto;
+		background-color:#fff;
+		border-radius:10px;
+    }
+
+   .login-form-header{
+		text-align: center;
+	    font-size:20px;
+	    color: #ff4d4d;
+	    padding-top:30px;
+	}
+   .login-form .input-container {
+		border-bottom: 1px solid #CCCCCC;
+	    margin-top:33px;
+	    font-size:16px;
+	    width:300px;
+		margin-left:8%;
+
+     }
+
+   .login-form .input {
+		border:0;
+		width:250px;
+		padding-left:5px;
+	    font-size:15px;
+	  
+	    background-color:transparent;
+	   
+    }
+
+   .login-form .input:focus {
+     outline: none;
+  }
+  .fontawesome_icon{
+    font-size:18px !important;
+  }
+  .container1{
+    margin-bottom:20px;
+  }
+   
+   .login-form .button {
+		
+	    width:100px;
+	   margin-top:10%;
+	    border-radius:20px;
+	    background: #2e7ec7;
+	    border: 0;
+	    color: #FFFFFF;
+	    padding: 10px;
+	    font-size: 15px;
+		cursor: pointer;
+		transition: background .3s;
+		margin-left:19%;
+		margin-bottom:10px;
+    }
+   .login-form .button:hover {
+	    background: #1f6eb7;
+    }
+   .login-form .button:focus {
+	  outline: none;
+    }
+   .login-form .button1 {
+		margin-top:10%;
+	    width:100px;
+	    border-radius: 20px;
+	    background: #ff4d4d;
+	    border: 0;
+	    color: #FFFFFF;
+	    padding: 10px;
+	    font-size: 15px;
+		cursor: pointer;
+		transition: background .3s;
+		margin-left:4%;
+		margin-bottom:10px;
+    }
+   .login-form .button1:hover {
+	    background: #ff3333;
+   }
+   .login-form .button1:focus {
+	   outline: none;
+   }
+   ::placeholder{
+
+	color:#4682B4;
+	
+	font-size:12px;
+  }
+  .alertmessage{
+  	font-size:14px;
+    padding-left:15px;
+    color:#a9a9a9;
+    line-height:22px;
+  }
+	
+/* media quiers start here */
+
+@media only screen and (max-width:2570px) and (min-width:1420px){
+
+		.heading_info{
+			position: absolute;
+    color: #fff;
+    font-size: 38px;
+    top: 6%;
+    left:16%;
+    font-weight: bold;
+		}
+
+	}
+@media only screen and (max-width:1024px) {
+
+.heading_info{
+     	position:absolute;
+     	color:#fff;
+     	font-size:38px;
+     	top:3%;
+     	left:16%;
+     	font-weight:bold;
+     }
+     .sohamgeni_info{
+     	
+     	position:absolute;
+     	color:#fff;
+     	top:20%;
+     	left:4%;
+     	font-size:18px;
+     	letter-spacing:1px;
+     	line-height:30px;
+     }
+      .login-form-content{
+	   
+		top:20%;
+	    right:4%;
+	    width:360px;
+		border:1px solid #ccc;
+		box-shadow:1px 1px 1px 1px;
+		height:auto;
+		background-color:#fff;
+		border-radius:10px;
+		 overflow: auto;
+		}
+		.sohamlogin{
+	position: absolute;
+    top: 17%;
+    right:5%;
+}
+.soham{
+
+	
+    font-size:26px;
+    top:-12%;
+    color:#fff;
+    position: absolute;
+   
+    border-radius: 50%;
+   
+    padding:31px 36px 3px 10px;
+    width:64px;
+    height:65px;
+    left:36%;
+
+    background-color:#4682B4;
+    }
+
+	}
+	@media only screen and (max-width:768px) {
+
+.heading_info{
+     	position:absolute;
+     	color:#fff;
+     	font-size:30px;
+     	top:6%;
+     	left:10%;
+     	font-weight:bold;
+     }
+     .sohamgeni_info{
+     	
+     	position:absolute;
+     	color:#fff;
+     	top:20%;
+     	left:4%;
+     	font-size:18px;
+     	letter-spacing:1px;
+     	line-height:25px;
+     	width:327px;
+     }
+      .login-form-content{
+	   
+		top:20%;
+	    right:4%;
+	    width:320px;
+		border:1px solid #ccc;
+		box-shadow:1px 1px 1px 1px;
+		height:auto;
+		background-color:#fff;
+		border-radius:10px;
+		 overflow: auto;
+		}
+		.login-form .input-container {
+		border-bottom: 1px solid #CCCCCC;
+	    margin-top:15px;
+	    font-size:16px;
+	    color:#4682B4;
+		padding-bottom: 5px;
+		width:300px;
+		margin-left:5%;
+
+     }
+     .sohamlogin{
+	position: absolute;
+    top: 17%;
+    right:7%;
+}
+.soham{
+
+	
+    font-size:26px;
+    top:-12%;
+    color:#fff;
+    position: absolute;
+   
+    border-radius: 50%;
+    
+    padding:31px 36px 3px 10px;
+    width:64px;
+    height:65px;
+    left:36%;
+    
+    background-color:#4682B4;
+    }
+
+	}
+	@media only screen and (max-width:425px){
+		.heading_info{
+     	display:none;
+     }
+     
+     .sohamgeni_info{
+     	display:none;
+     	
+     }
+      .login-form-content{
+	   
+		top:20%;
+	    right:9%;
+	    width:320px;
+		border:1px solid #ccc;
+		box-shadow:1px 1px 1px 1px;
+		height:auto;
+		background-color:#fff;
+		border-radius:10px;
+		 overflow: auto;
+		
+
+		}
+		.login-form .input-container {
+		border-bottom: 1px solid #CCCCCC;
+	    margin-top:15px;
+	    font-size:16px;
+	    color:#4682B4;
+		padding-bottom: 5px;
+		width:300px;
+		margin-left:5%;
+
+     }
+     .sohamlogin{
+	position: absolute;
+    top: 17%;
+    right: 12%;
+}
+.soham{
+
+	
+    font-size:26px;
+    top:-12%;
+    color:#fff;
+    position: absolute;
+   
+    border-radius: 50%;
+   
+    padding:31px 36px 3px 10px;
+    width:64px;
+    height:65px;
+    left:36%;
+   
+    background-color:#4682B4;
+    }
+
+	}
+	@media only screen and (max-width:321px){
+		.heading_info{
+     	display:none;
+     }
+     .sohamgeni_info{
+     	display:none;
+     	
+     }
+      .login-form-content{
+	    
+		top:20%;
+	    right:3px;
+	    width:313px;
+		border:1px solid #ccc;
+		box-shadow:1px 1px 1px 1px;
+		height:auto;
+		background-color:#fff;
+		border-radius:10px;
+		 overflow: auto;
+		
+
+		}
+		.login-form .input-container {
+		border-bottom: 1px solid #CCCCCC;
+	    margin-top:15px;
+	    font-size:16px;
+	    color:#4682B4;
+		padding-bottom: 5px;
+		width:300px;
+		margin-left:3%;
+
+     }
+     .sohamlogin{
+	position: absolute;
+    top:19%;
+    right:1%;
+}
+.soham{
+
+	
+    font-size:26px;
+    top:-12%;
+    color:#fff;
+    position: absolute;
+   
+    border-radius: 50%;
+  
+    padding:31px 36px 3px 10px;
+    width:64px;
+    height:65px;
+    left:36%;
+  
+    background-color:#4682B4;
+    }
+
+	}
